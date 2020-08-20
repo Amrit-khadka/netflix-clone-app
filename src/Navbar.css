@@ -1,0 +1,33 @@
+.nav{
+  position: fixed;
+  top: 0;
+
+  width: 100%; /*must add, in order to use position:fixed*/
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+  height: 30px;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background: #333;
+}
+.nav_logo{
+  width: 80px;
+  object-fit: contain;
+
+  position: fixed; /* dont want to touch to much for padding,margin,like that*/
+  left: 20px;
+}
+
+.nav_avatar{
+  position: fixed; /* dont want to touch to much for padding,margin,like that*/
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+
+}
